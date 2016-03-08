@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="项">
+        <item>地面塔</item>
+        <item>楼面塔</item>
+        <item>基站机房</item>
+        <item>电源</item>
+        <item>机房配套</item>
+        <item>电力引入设备</item>
+        <item>塔房用仪器仪表</item>
+        <item>动环用仪器仪表</item>
+        <item>长期待摊费用</item>
+        <item>室分用仪器仪表</item>
+    </string-array>
+
+    <!-- 地面塔  开始 -->
+    <string-array name="地面塔">
+        <item>普通地面塔</item>
+        <item>灯杆景观塔</item>
+        <item>简易灯杆塔</item>
+    </string-array>
+    <string-array name="普通地面塔">
+        <item>角钢塔</item>
+        <item>单管塔</item>
+        <item>三管塔</item>
+        <item>四管塔</item>
+    </string-array>
+    <string-array name="灯杆景观塔">
+        <item>灯杆景观塔</item>
+        <item>简易落地塔</item>
+        <item>一体化塔房</item>
+        <item>落地拉线塔</item>
+        <item>仿生树</item>
+        <item>双轮景观塔</item>
+    </string-array>
+    <string-array name="简易灯杆塔">
+        <item>路灯灯塔</item>
+        <item>水泥杆塔</item>
+        <item>H杆塔</item>
+        <item>落地增高架</item>
+    </string-array>
+
+    <string name="角钢塔">座</string>
+    <string name="单管塔">座</string>
+    <string name="三管塔">座</string>
+    <string name="四管塔">座</string>
+    <string name="灯杆景观塔">座</string>
+    <string name="简易落地塔">座</string>
+    <string name="一体化塔房">座</string>
+    <string name="落地拉线塔">座</string>
+    <string name="仿生树"></string>
+    <string name="双轮景观塔">座</string>
+    <string name="路灯灯塔">座</string>
+    <string name="水泥杆塔">座</string>
+    <string name="H杆塔">座</string>
+    <string name="落地增高架">座</string>
+    <!-- 地面塔  结束 -->
+
+
+    <!-- 楼面塔  开始 -->
+    <string-array name="楼面塔">
+        <item>普通楼面塔</item>
+        <item>楼面抱杆</item>
+    </string-array>
+    <string-array name="普通楼面塔">
+        <item>楼面拉线塔</item>
+        <item>楼面增高架</item>
+        <item>楼面支撑杆</item>
+        <item>楼面角钢塔</item>
+        <item>楼顶景观塔</item>
+        <item>楼面美化天线</item>
+    </string-array>
+    <string-array name="楼面抱杆">
+        <item>楼面抱杆</item>
+    </string-array>
+
+    <string name="楼面拉线塔">座</string>
+    <string name="楼面增高架">座</string>
+    <string name="楼面支撑杆">座</string>
+    <string name="楼面角钢塔">座</string>
+    <string name="楼顶景观塔">座</string>
+    <string name="楼面美化天线">座</string>
+    <string name="楼面抱杆">座</string>
+    <!-- 楼面塔  结束 -->
+
+
+    <!-- 基站机房 开始 -->
+    <string-array name="基站机房">
+        <item>基站机房_目</item>
+    </string-array>
+    <string-array name="基站机房_目">
+        <item>砖混房屋</item>
+        <item>一体化机房</item>
+        <item>一体化机柜</item>
+        <item>框架机房</item>
+        <item>彩钢板机房</item>
+    </string-array>
+
+    <string name="砖混房屋">平方米</string>
+    <string name="一体化机房">平方米</string>
+    <string name="一体化机柜">台</string>
+    <string name="框架机房">平方米</string>
+    <string name="彩钢板机房">平方米</string>
+    <!-- 基站机房 结束 -->
+
+
+    <!-- 电源 开始 -->
+    <string-array name="电源">
+        <item>蓄电池组</item>
+        <item>低压配电设备</item>
+        <item>交直流配电设备</item>
+        <item>整流设备</item>
+        <item>组合开关电源</item>
+        <item>变换设备</item>
+        <item>UPS电源</item>
+        <item>发电主设备</item>
+        <item>油机发电外围设备</item>
+        <item>电源机柜</item>
+    </string-array>
+    <string-array name="蓄电池组">
+        <item>铅酸蓄电池</item>
+        <item>锂电蓄电池</item>
+        <item>燃料电池</item>
+        <item>蓄电池恒温箱</item>
+        <item>电池合路器</item>
+    </string-array>
+    <string-array name="低压配电设备">
+        <item>低压进线柜</item>
+        <item>低压补偿柜</item>
+        <item>低压出线柜</item>
+        <item>低压转换柜</item>
+        <item>低压联络控制柜</item>
+        <item>低压计量柜</item>
+        <item>滤波设备</item>
+        <item>低压避雷设施</item>
+    </string-array>
+    <string-array name="交直流配电设备">
+        <item>直流配电设备</item>
+        <item>交流配电设备</item>
+        <item>交流计量箱</item>
+        <item>交直流配电屏</item>
+        <item>交流配电箱</item>
+    </string-array>
+    <string-array name="整流设备">
+        <item>整流机架</item>
+    </string-array>
+    <string-array name="组合开关电源">
+        <item>组合开关电源柜</item>
+        <item>嵌入式开关电源</item>
+        <item>壁挂式开关电源</item>
+        <item>整流模块</item>
+    </string-array>
+    <string-array name="变换设备">
+        <item>直_直变换器</item>
+        <item>直_交变换器</item>
+        <item>远供系统</item>
+    </string-array>
+    <string-array name="UPS电源">
+        <item>UPS电源柜</item>
+        <item>集中旁路柜</item>
+        <item>UPS并机柜_箱</item>
+        <item>UPS电池开关柜</item>
+        <item>直流供电设备</item>
+    </string-array>
+    <string-array name="发电主设备">
+        <item>固定柴油发电机组</item>
+        <item>汽油发电机组</item>
+        <item>柴油发电机组</item>
+        <item>风力发电机组</item>
+        <item>太阳能发电设备</item>
+    </string-array>
+    <string-array name="油机发电外围设备">
+        <item>燃油箱</item>
+        <item>发电设备控制柜</item>
+        <item>储油罐</item>
+        <item>油机转换箱</item>
+    </string-array>
+    <string-array name="电源机柜">
+        <item>一体化电源柜</item>
+    </string-array>
+
+    <string name="铅酸蓄电池">V×AH/组</string>
+    <string name="锂电蓄电池">组</string>
+    <string name="燃料电池">组</string>
+    <string name="蓄电池恒温箱">柜</string>
+    <string name="电池合路器">个</string>
+    <string name="低压进线柜">面</string>
+    <string name="低压补偿柜">面</string>
+    <string name="低压出线柜">面</string>
+    <string name="低压转换柜">面</string>
+    <string name="低压联络控制柜">面</string>
+    <string name="低压计量柜">面</string>
+    <string name="滤波设备">面</string>
+    <string name="低压避雷设施">面</string>
+    <string name="直流配电设备">面</string>
+    <string name="交流配电设备">面</string>
+    <string name="交流计量箱">	面</string>
+    <string name="交直流配电屏">面</string>
+    <string name="交流配电箱">个</string>
+    <string name="整流机架">架</string>
+    <string name="组合开关电源柜">个</string>
+    <string name="嵌入式开关电源">个</string>
+    <string name="壁挂式开关电源">个</string>
+    <string name="整流模块">个</string>
+    <string name="直_直变换器">	台</string>
+    <string name="直_交变换器">	台</string>
+    <string name="远供系统">台</string>
+    <string name="UPS电源柜">个</string>
+    <string name="集中旁路柜">个</string>
+    <string name="UPS并机柜_箱">个</string>
+    <string name="UPS电池开关柜">个</string>
+    <string name="直流供电设备">套</string>
+    <string name="固定柴油发电机组">台</string>
+    <string name="汽油发电机组">台</string>
+    <string name="柴油发电机组">台</string>
+    <string name="风力发电机组">台</string>
+    <string name="太阳能发电设备">套</string>
+    <string name="燃油箱">台</string>
+    <string name="发电设备控制柜">个</string>
+    <string name="储油罐">个</string>
+    <string name="油机转换箱">个</string>
+    <string name="一体化电源柜">个</string>
+    <!-- 电源 结束 -->
+
+
+    <!-- 机房配套 开始 -->
+    <string-array name="机房配套">
+        <item>机房空调设备</item>
+        <item>动力及环境监控局端设备</item>
+        <item>动力及环境监控单元</item>
+        <item>机房消防设备</item>
+        <item>配套机架_机柜</item>
+    </string-array>
+    <string-array name="机房空调设备">
+        <item>普通空调壁挂</item>
+        <item>普通空调柜式</item>
+        <item>专用空调</item>
+        <item>智能通风设备</item>
+    </string-array>
+    <string-array name="动力及环境监控局端设备">
+        <item>动力及环境监控局端服务器</item>
+        <item>动力及环境监控局端其他设备</item>
+        <item>监控终端</item>
+    </string-array>
+    <string-array name="动力及环境监控单元">
+        <item>动力及环境监控单元</item>
+    </string-array>
+    <string-array name="机房消防设备">
+        <item> 防火设备及材料</item>
+        <item>火灾自动探测报警设备</item>
+        <item>消防灭火系统设备</item>
+        <item>自动灭火系统设备</item>
+    </string-array>
+    <string-array name="配套机架_机柜">
+        <item>配套机架_机柜</item>
+    </string-array>
+
+    <string name="普通空调壁挂">台</string>
+    <string name="普通空调柜式">台</string>
+    <string name="专用空调">个</string>
+    <string name="智能通风设备">套</string>
+    <string name="动力及环境监控局端服务器">个</string>
+    <string name="动力及环境监控局端其他设备">个</string>
+    <string name="监控终端">个</string>
+    <string name="动力及环境监控单元">个</string>
+    <string name="防火设备及材料">套</string>
+    <string name="火灾自动探测报警设备">套</string>
+    <string name="消防灭火系统设备">套</string>
+    <string name="自动灭火系统设备">套</string>
+    <string name="配套机架_机柜">个</string>
+    <!-- 机房配套 结束 -->
+
+
+    <!-- 电力引入设备开始 -->
+    <string-array name="电力引入设备">
+        <item>电力电缆</item>
+        <item>母线</item>
+        <item>电力杆路</item>
+        <item>电力塔设施</item>
+        <item>变压_稳压设备</item>
+        <item>高压配电设备</item>
+        <item>供电计量设备</item>
+    </string-array>
+    <string-array name="电力电缆">
+        <item>电力电缆10KV</item>
+        <item>电力电缆1KV以下</item>
+        <item>电力管道</item>
+    </string-array>
+    <string-array name="母线">
+        <item>母线槽</item>
+        <item>裸母线</item>
+    </string-array>
+    <string-array name="电力杆路">
+        <item>杆路</item>
+    </string-array>
+    <string-array name="电力塔设施">
+        <item>电力塔</item>
+    </string-array>
+    <string-array name="变压_稳压设备">
+        <item>变压器</item>
+        <item>调压器</item>
+        <item>稳压器</item>
+        <item>箱式变电站</item>
+    </string-array>
+    <string-array name="高压配电设备">
+        <item>高压隔离开关</item>
+        <item>高压跌落式开关</item>
+    </string-array>
+    <string-array name="供电计量设备">
+        <item>供电计量设备</item>
+    </string-array>
+
+    <string name="电力电缆10KV">米</string>
+    <string name="电力电缆1KV以下">米</string>
+    <string name="电力管道">孔公里</string>
+    <string name="母线槽">米</string>
+    <string name="裸母线">米</string>
+    <string name="杆路">杆程公里</string>
+    <string name="电力塔">座</string>
+    <string name="变压器">台</string>
+    <string name="调压器">台</string>
+    <string name="稳压器">台</string>
+    <string name="箱式变电站">面</string>
+    <string name="高压隔离开关">组</string>
+    <string name="高压跌落式开关">组</string>
+    <string name="供电计量设备">台</string>
+
+    <!-- 电力引入设备结束 -->
+
+
+    <!-- 塔房用仪器仪表开始 -->
+    <string-array name="塔房用仪器仪表">
+        <item>塔房用仪器仪表_目</item>
+    </string-array>
+    <string-array name="塔房用仪器仪表_目">
+        <item>经纬仪</item>
+        <item>测距望远镜</item>
+        <item>地阻仪</item>
+        <item>测厚仪</item>
+        <item>全站仪</item>
+    </string-array>
+
+    <string name="经纬仪">套</string>
+    <string name="测距望远镜">套</string>
+    <string name="地阻仪">套</string>
+    <string name="测厚仪">套</string>
+    <string name="全站仪">套</string>
+
+    <!-- 塔房用仪器仪表结束 -->
+
+
+    <!-- 动环用仪器仪表开始 -->
+    <string-array name="动环用仪器仪表">
+        <item>动环用仪器仪表_目</item>
+    </string-array>
+    <string-array name="动环用仪器仪表_目">
+        <item>红外热成像仪</item>
+        <item>空调压力测试表</item>
+        <item>电池容量测试仪</item>
+        <item>电池内阻_电导测试仪</item>
+        <item>抽水泵</item>
+        <item>手提式应急灯</item>
+    </string-array>
+
+    <string name="红外热成像仪">套</string>
+    <string name="空调压力测试表">套</string>
+    <string name="电池容量测试仪">套</string>
+    <string name="电池内阻_电导测试仪">套</string>
+    <string name="抽水泵">套</string>
+    <string name="手提式应急灯">套</string>
+
+    <!-- 动环用仪器仪表结束 -->
+
+
+    <!-- 长期待摊费用开始 -->
+    <string-array name="长期待摊费用">
+        <item>外市电引入</item>
+        <item>房屋租赁费</item>
+        <item>电路租赁费</item>
+        <item>土地租赁费</item>
+        <item>经营租入固定资产改良支出</item>
+        <item>设备租赁费</item>
+        <item>固定资产大修理支出</item>
+        <item>选址费</item>
+    </string-array>
+    <string-array name="外市电引入">
+        <item>外市电引入</item>
+    </string-array>
+    <string-array name="房屋租赁费">
+        <item>长期预付房屋租金</item>
+    </string-array>
+    <string-array name="电路租赁费">
+        <item>长期预付线路租赁费</item>
+    </string-array>
+    <string-array name="土地租赁费">
+        <item>长期预付土地租赁费</item>
+    </string-array>
+    <string-array name="经营租入固定资产改良支出">
+        <item>经营租入固定资产改良支出</item>
+    </string-array>
+    <string-array name="设备租赁费">
+        <item>设备租赁费</item>
+    </string-array>
+    <string-array name="固定资产大修理支出">
+        <item>固定资产大修理支出</item>
+    </string-array>
+    <string-array name="选址费">
+        <item>选址费</item>
+    </string-array>
+
+    <string name="外市电引入">项</string>
+    <string name="长期预付房屋租金">项</string>
+    <string name="长期预付线路租赁费">项</string>
+    <string name="长期预付土地租赁费">项</string>
+    <string name="经营租入固定资产改良支出">项</string>
+    <string name="设备租赁费">项</string>
+    <string name="固定资产大修理支出">项</string>
+    <string name="选址费">项</string>
+
+    <!-- 长期待摊费用结束 -->
+
+
+    <!-- 室分用仪器仪表开始 -->
+    <string-array name="室分用仪器仪表">
+        <item>室分用仪器仪表_目</item>
+    </string-array>
+    <string-array name="室分用仪器仪表_目">
+        <item>驻波比测试仪</item>
+        <item>网络分析仪双通道频率范围至4G</item>
+        <item>手持式的带定位功能900M互调仪</item>
+        <item>手持式的带定位功能1800M互调仪</item>
+        <item>手持式的带定位功能2100M互调仪</item>
+        <item>GC套件含1个手持式信源和2个功率计</item>
+        <item>手持式SITEMASTER</item>
+        <item>temsLTE测试手机</item>
+        <item>场强仪</item>
+        <item>频谱仪</item>
+    </string-array>
+
+    <string name="驻波比测试仪">套</string>
+    <string name="网络分析仪双通道频率范围至4G">套</string>
+    <string name="手持式的带定位功能900M互调仪">套</string>
+    <string name="手持式的带定位功能1800M互调仪">套</string>
+    <string name="手持式的带定位功能2100M互调仪">套</string>
+    <string name="GC套件含1个手持式信源和2个功率计">套</string>
+    <string name="手持式SITEMASTER">套</string>
+    <string name="temsLTE测试手机">套</string>
+    <string name="场强仪">套</string>
+    <string name="频谱仪">套</string>
+
+    <!-- 室分用仪器仪表结束 -->
+
+</resources>

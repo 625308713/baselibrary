@@ -1,0 +1,82 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <!-- 自定义窗口标题样式 -->
+    <style name="CustomTitle" parent="android:Theme">
+        <item name="android:windowTitleSize">42dp</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBg</item>
+    </style>
+    
+    <!-- 自定义窗口标题背景图片 -->
+    <style name="CustomWindowTitleBg">
+        <item name="android:background">@color/red</item>
+    </style>
+    
+    <!-- 自定义对话框的样式 -->
+    <style name="CustomDialogWindow" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/dialog_bg</item>
+    </style>
+    
+    <!-- 自定义圆形进度框 -->
+    <style name="ProgressDialogIcon" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+
+    <style name="CustomProgressDialog" parent="@style/ProgressDialogIcon">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+    <!-- segment radioButton样式 -->
+	 <style name="segmentRadioButton">
+        <item name="android:textColor">@drawable/selector_text_color</item>
+        <item name="android:minHeight">28dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:paddingLeft">3dp</item>
+        <item name="android:paddingRight">3dp</item>
+    </style>
+	<style name="alert_dialog" parent="@android:Theme.Dialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@color/float_transparent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="dialog_blue_button" parent="@android:Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">72dp</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:background">@drawable/blue_button_background</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">21dp</item>
+        <item name="android:paddingRight">21dp</item>
+        <item name="android:textColor">@color/button_text_color</item>
+    </style>
+</resources>

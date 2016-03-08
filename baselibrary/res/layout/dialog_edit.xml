@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp" >
+
+        <TextView
+            android:id="@+id/dialog_edit_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="normal|bold"
+             android:textColor="@color/color_selector_blue"
+            android:textSize="18sp" />
+        
+        <EditText
+            android:layout_below="@id/dialog_edit_title"
+            android:id="@+id/dialog_edit_content"
+            android:background="@drawable/selector_edit_state"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="5dp"
+            android:layout_width="fill_parent"
+            android:gravity="top|left"
+            android:layout_height="80dp"
+            />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dialog_edit_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/dialog_edit_enter"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_btn_enter"
+                android:text="@string/dialog_btn_enter"
+                android:textColor="@color/white"
+                android:layout_marginRight="5dp"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/dialog_edit_cancle"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/selector_btn_cancel"
+                android:layout_weight="1"
+                android:text="@string/dialog_btn_cancle"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

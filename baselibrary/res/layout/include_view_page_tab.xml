@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.android.widget.viewpage.PagerSlidingTabStrip
+        android:id="@id/base_view_page_tab"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        app:pstsDividerColor="#ffffffff"
+        app:pstsIndicatorColor="#ff33b5e5"
+        app:pstsIndicatorHeight="3dp"
+        app:pstsShouldExpand="true"
+        app:pstsTabBackground="@drawable/selector_bg_tab"
+        app:pstsUnderlineHeight="2dp"
+        app:selectedTabTextColor="#ff33b5e5" />
+
+</RelativeLayout>
